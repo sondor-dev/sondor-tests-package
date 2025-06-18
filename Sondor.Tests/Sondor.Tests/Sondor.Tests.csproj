@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <LangVersion>13</LangVersion>
+    <Title>Sondor.Tests</Title>
+    <Authors>Sondor Technology</Authors>
+    <Company>Sondor Technology</Company>
+    <Description>Sondor Tests is a library of classes and methods to help you write tests for your code.
+It provides a set of utilities to make it easier to write unit tests, integration tests,
+and functional tests.</Description>
+    <PackageProjectUrl>https://github.com/sondor-dev/sondor-tests-package</PackageProjectUrl>
+    <PackageIcon>sondor-technology-logo.jpg</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/sondor-dev/sondor-tests-package</RepositoryUrl>
+    <PackageTags>Sondor;Tests;</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>The initial release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>$(AssemblyName).Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="sondor-technology-logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
