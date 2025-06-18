@@ -1,4 +1,4 @@
-# Sondor Options
+# Sondor Tests
 ![Build Status](https://dev.azure.com/sondortechnology/Sondor%20Infrastructure/_apis/build/status%2Fsondor-dev.sondor-tests-package?repoName=sondor-dev%2Fsondor-tests-package&branchName=master) ![NuGet Downloads](https://img.shields.io/nuget/dt/Sondor.Tests)
 
 Sondor Tests is a library of classes and methods to help you write tests for your code.
