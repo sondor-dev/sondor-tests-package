@@ -20,17 +20,24 @@ and functional tests.</Description>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="sondor-technology-logo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
       <_Parameter1>$(AssemblyName).Tests</_Parameter1>
     </AssemblyAttribute>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="README.md">
+    <Content Include="sondor-technology-logo.jpg">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
-    </None>
-    <None Update="sondor-technology-logo.jpg">
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
