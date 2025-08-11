@@ -4,7 +4,7 @@ trigger:
       - Sondor.Tests/**
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 variables:
 - name: major
