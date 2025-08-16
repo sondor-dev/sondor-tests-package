@@ -101,4 +101,16 @@ public static class SondorTestConstants
     /// </summary>
     public const string DefaultStringValue =
         "value";
+
+    /// <summary>
+    /// The default absolute URI value.
+    /// </summary>
+    public static readonly string DefaultAbsoluteUriValue =
+        "https://sondor-technology.co.uk";
+
+    /// <summary>
+    /// The default relative URI value.
+    /// </summary>
+    public static readonly string DefaultRelativeUriValue =
+        "/resource/relative-path";
 }
